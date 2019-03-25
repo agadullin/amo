@@ -92,7 +92,7 @@
         }
     }
 
-    class Curl
+    class Curl extends Number
     {
         public function getCurl($data, $link)
         {
@@ -108,6 +108,21 @@
             $out = curl_exec($curl);
             curl_close($curl);
             return $result = json_decode($out,TRUE);
+        }
+    }
+
+    class Essence extends Curl
+    {
+
+
+
+        private $filds;
+        private $name;
+        private $id;
+
+        public function createEssence ($fields) {
+
+
         }
     }
 

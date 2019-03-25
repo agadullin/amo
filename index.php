@@ -18,7 +18,7 @@
     <title>Document</title>
 </head>
 <body>
-<form action="./main.php" method="post">
+<form action="./test.php" method="post">
     <input type="text" name="getValue">
     <input type="submit" value="go">
 </form>
